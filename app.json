@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/rice/rice",
+    "pages/vending/vending",
+    "pages/locker/locker",
+    "pages/my/my"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "鸿家，智慧生活",
+    "navigationBarTextStyle":"black"
+  },
+   "tabBar": {
+     "selectedColor": "#f81",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/locker/locker",
+      "text": "快递柜"
+    }, {
+      "pagePath": "pages/rice/rice",
+      "text": "鲜米机"      
+    }, {
+      "pagePath": "pages/vending/vending",
+      "text": "智能柜"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的"
+    }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
